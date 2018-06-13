@@ -1,11 +1,14 @@
 def fizzbuzz(the_number)
-  puts the_number.class
+
   if (the_number / 5).class == Fixnum
-    puts "Buzz"
-  else
-    puts"Oh hi, Mark"
+    if (the_number / 3).class == Fixnum
+      puts "Fizzbuzz"
+    else
+      puts"Buzz"
+    end
+  elsif (the_number / 3).class == Fixnum
+    puts "Fizz"
   end
-end
 
 puts"it puts the lotion in the basket"
 the_number=gets.strip
