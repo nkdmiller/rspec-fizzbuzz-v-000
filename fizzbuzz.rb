@@ -1,4 +1,5 @@
 def fizzbuzz(the_number)
+  puts the_number.class
   if (the_number / 5).class == Integer
     puts "Buzz"
   else
