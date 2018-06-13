@@ -1,6 +1,6 @@
 def fizzbuzz(the_number)
   puts the_number.class
-  if (the_number / 5).class == Integer
+  if (the_number / 5).class == Fixnum
     puts "Buzz"
   else
     puts"Oh hi, Mark"
