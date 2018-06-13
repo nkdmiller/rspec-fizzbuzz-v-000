@@ -3,4 +3,5 @@ def fizzbuzz(the_number)
     puts "Buzz"
   else
     puts"Oh hi, Mark"
+  end
 end
